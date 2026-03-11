@@ -1,0 +1,22 @@
+vinhlx@MacBookPro mcino-Introduction-to-Git-and-GitHub % git checkout main |tee >> merge_branches                
+Switched to branch 'main'
+vinhlx@MacBookPro mcino-Introduction-to-Git-and-GitHub % ll
+total 72
+-rw-r--r--  1 vinhlx  staff   5202 Mar 11 09:57 CODE_OF_CONDUCT.md
+-rw-r--r--  1 vinhlx  staff    108 Mar 11 09:57 CONTRIBUTING.md
+-rw-r--r--  1 vinhlx  staff  11358 Mar 11 09:57 LICENSE
+-rw-r--r--  1 vinhlx  staff    328 Mar 11 09:57 README.md
+-rw-r--r--  1 vinhlx  staff    676 Mar 11 09:57 compound_interest.py
+-rw-r--r--  1 vinhlx  staff    571 Mar 11 09:57 simple-interest.sh
+vinhlx@MacBookPro mcino-Introduction-to-Git-and-GitHub % git merge bug-fix-typo
+Updating ad95b0a..ded056f
+Fast-forward
+ forked-repo    | 336 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ merge_branches |   0
+ 2 files changed, 336 insertions(+)
+ create mode 100644 forked-repo
+ create mode 100644 merge_branches
+vinhlx@MacBookPro mcino-Introduction-to-Git-and-GitHub % ls
+CODE_OF_CONDUCT.md	LICENSE			compound_interest.py	merge_branches
+CONTRIBUTING.md		README.md		forked-repo		simple-interest.sh
+vinhlx@MacBookPro mcino-Introduction-to-Git-and-GitHub %
